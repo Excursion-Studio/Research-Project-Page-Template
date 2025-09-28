@@ -1,0 +1,24 @@
+/* Fonts */
+
+/* Written by Constantine Heinrich Chen (ConsHein Chen) */
+/* Last Change: 2025-08-22 */
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../font/Poppins.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'excursion';
+    src: url('../font/Excursion.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'nunito';
+    src: url('../font/Nunito.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Oxanium';
+    src: url('../font/Oxanium.ttf') format('truetype');
+}

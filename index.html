@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Written by Constantine Heinrich Chen (ConsHein Chen) -->
+
+<!-- Last Change: 2025-09-19 -->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Excursion Research Project Page Template</title>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/font.css">
+
+  <script>
+    window.onload = function() {
+      // Clear specific localStorage items, not all
+      localStorage.removeItem('signboardDismissed');
+      // Keep pptOptions for PPT generator
+    };
+  </script>
+  <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <script src="src/signboard.js"></script>
+  <script src="src/authors.js"></script>
+  <script src="src/info.js"></script>
+  
+  <!-- Slide Generator Scripts -->
+  <script src="https://unpkg.com/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+  <script src="slide_generator/ppt-style-rules.js"></script>
+  <script src="slide_generator/slide-generator.js"></script>
+
+  <script src="src/info-button.js"></script>
+  <script src="src/main.js"></script>
+  <script src="src/mobile.js"></script>
+</head> 
+<body>
+  <div id="main-container"></div>
+  <script src="src/copyright.js"></script>
+</body>
+</html>
