@@ -16,12 +16,10 @@ The sample page can be previewed by clicking [here](https://excursion-studio.git
 
 ## Features
 
-ESRPP template is developed using pure HTML/CSS/JavaScript with the following features:
 - 🔧 **Modular Design**: Each functional module is developed independently for easy maintenance
 - 📱 **Responsive Layout**: Supports adaptive desktop and mobile devices
 - 📊 **Configuration-Driven**: Content managed through JSON configuration files, no code modification required
 - 🎨 **Modern UI**: Clean and beautiful interface design with alternating light cyan/white layout structure
-- 📄 **Automatic PPT Generation**: Automatically generate PPT slides that meet style requirements through configuration files and scripts
 
 ## Project Structure
 
@@ -45,9 +43,6 @@ research-project-template/
 │   ├── main.js            # Main content module
 │   ├── mobile.js          # Mobile adaptation module
 │   └── copyright.js       # Footer copyright module
-├── slide_generator/       # Slide generator directory
-│   ├── slide-generator.js # Slide generator script
-│   └── ppt-style-rules.js # Slide generation style rules file
 ├── font/                  # Font resources directory
 └── index.html             # Main page file
 ```
@@ -220,11 +215,6 @@ Place the webpage icon file (e.g. favicon.ico) in the `images/favicon/` director
 
 ## Feature Description
 
-### PPT Presentation Slide Generation
-
-- Click the "PPT" button to download PPT slides that meet style requirements with one click, freeing your hands from making PPTs separately!
-- PPT slides will automatically get content from configuration files
-
 ### Responsive Design
 
 - The template adapts to desktop and mobile devices
@@ -253,9 +243,9 @@ A: Edit the CSS variables in the `src/main.js` file:
     }
 ```
 
-### Q: How to customize the style of PPT slides?
+### Q: There are still some users who are not very clear about the JSON format rules of this project, is there any detailed documentation?
 
-A: Edit the relevant functions in the `slide_generator/ppt-style-rules.js` file to modify fonts, colors, layouts, etc. The PPT generator in this project is implemented based on the pptxgen library, so before that, you need to learn the corresponding development knowledge.
+A: We have always been committed to providing users with an extremely simple and convenient design framework. We hope to convey to users a more intuitive and clear design concept. In the future, we will design a **GUI design program** for users to design their own research project pages in a **graphical manner**, without needing to pay attention to the underlying code implementation.
 
 ## Contact
 
