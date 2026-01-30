@@ -1,0 +1,51 @@
+{
+    "top-title": "PIPE Planner: Pathwise Information Gain with Map Predictions for Indoor Robot Exploration",
+    "conference": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2025",
+    "institution":
+    {
+        "1": "Ulsan National Institute of Science and Technology",
+        "2": "Carnegie Mellon University Robotics Institute"
+    },
+    "authors": {
+        "Seungjae Baek": {
+            "homepage": "https://bsj970.github.io/",
+            "affiliation": "1,2",
+            "equal_or_not": true
+        },
+        "Brady Moon": {
+            "homepage": "https://bradymoon.com/",
+            "affiliation": "2",
+            "equal_or_not": true
+        },
+        "Seungchan Kim": {
+            "homepage": "https://seungchan-kim.github.io/",
+            "affiliation": "2",
+            "equal_or_not": true
+        },
+        "Muqing Cao": {
+            "homepage": "https://caomuqing.github.io/",
+            "affiliation": "2"
+        },
+        "Cherie Ho": {
+            "homepage": "https://cherieho.com/",
+            "affiliation": "2"
+        },
+        "Sebastian Scherer": {
+            "homepage": "https://theairlab.org/team/sebastian/",
+            "affiliation": "2"
+        },
+        "Jeong hwan Jeon": {
+            "homepage": "https://rml-unist.notion.site/",
+            "affiliation": "1"
+        }
+    },
+    "info-button": {
+        "arxiv": "https://arxiv.org/abs/2503.07504",
+        "code": "https://github.com/castacks/pipe-planner",
+        "video": "https://youtu.be/oZEqbCBRn-I",
+        "related_research": {
+            "MapEx Explorer": "https://mapex-explorer.github.io/",
+            "MapExRL": "https://mapexrl.github.io/"
+        }
+    }
+}
